@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: Linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("./img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+
+.Welcome{
+   color: yellow;
+   margin-top: 300px;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.good{
+     color: white;
+     margin-top: 10px;
+     text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 10px;
+}
+
+a{
+    text-decoration: none !important;
+    color: yellow;
+}
+
+.food{
+    background-color: green;
+    color: azure;
+    padding: 30px 60px;
+    margin-left: 650px;
+    font-size: 20.5px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.pot{
+    background-color: brown;
+}
+
+ 
+.circle-frame {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* makes it circled */
+  border: 8px solid white;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.jojo{
+    color:white ;
+    text-align: center;
+}
+.bad{
+    color: azure;
+    font-size: medium;
+    text-align: center;
+}
+
+.contact{
+  text-align: center;
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  background: #2d1a2d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
